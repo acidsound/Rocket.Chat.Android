@@ -40,7 +40,7 @@ public class RocketSubscriptions {
     }
 
     public Subscription roles(ResultListener listener) {
-        return new Subscription(mMeteor.subscribe("_roles", null, listener), mMeteor);
+        return new Subscription(mMeteor.subscribe("roles", null, listener), mMeteor);
     }
 
     public Subscription streamMessages(ResultListener listener) {
